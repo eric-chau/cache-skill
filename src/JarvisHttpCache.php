@@ -65,7 +65,7 @@ class JarvisHttpCache extends Jarvis
     public function forceHydrate()
     {
         foreach ($this->providersFqcn as $classname) {
-            $this->hydrate($classname);
+            $this->hydrate(new $classname());
         }
     }
 }

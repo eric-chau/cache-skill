@@ -17,7 +17,7 @@ class HttpCacheContainerProvider extends ContainerProvider
     /**
      * {@inheritdoc}
      */
-    public static function hydrate(Jarvis $container)
+    public function hydrate(Jarvis $container)
     {
         parent::hydrate($container);
 
