@@ -1,7 +1,8 @@
 {
     "name": "eric-chau/cache-skill",
     "require": {
-        "doctrine/cache": "1.4.*"
+        "doctrine/cache": "1.4.*",
+        "eric-chau/annotation-skill": "dev-master"
     },
     "autoload": {
         "psr-4": {
